@@ -1,42 +1,63 @@
+@font-face {
+  font-family: Playfair_display;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Space_Grotesk;
+  src: url(SpaceGrotesk-VariableFont_wght.ttf);
+}
+
 h1.title {
     text-align: center;
-    font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-family: Playfair_display;
 }
 div.header {
-    background-color: #8FABD4;
+    background-color: #181a58;
     padding: 1px;
     margin: 1px;
 }
 body {
-    background-color: #EFECE3;
+    background-color: #000000;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px;
+    padding: 20px;
     width: 20%;
 }
 h2.sub {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Playfair_display;
+    color:white;
+    font-size: 30px;
 }
 ul {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Space_Grotesk;
     word-spacing: 30px;
+    color:white;
 }
 li {
 display:inline;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+font-family: Space_Grotesk;
+color:white;
 }
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Playfair_display;
+    color:white;
+    font-size: 50px;
 }
 p {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
+    color:white;
+    font-family: Space_Grotesk;
+    font-size: 30px;
+}
+a {
+    text-decoration:none;
+    color:white;
 }
